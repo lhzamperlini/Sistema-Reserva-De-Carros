@@ -1,0 +1,53 @@
+*{
+}
+
+html,body{
+    margin: 0 0;
+    height: 100%;
+}
+
+body{
+
+}
+
+header{
+    text-align: center;
+}
+
+header > nav{
+    margin: 0 auto;
+    width: 20%;
+    margin-top: -2%;
+    margin-bottom: -5%;
+}
+
+header > nav > img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+main > a{
+    text-decoration: none;
+    text-align: center;
+    padding: -10%;
+    width: 30%;
+    background-color: #218F49;
+    color: white;
+    border-radius: 10px;
+}
+
+a > img{
+    width: 60%;
+}
+
+a > p{
+    margin-top: -3%;
+    font-size: 40px;
+}
