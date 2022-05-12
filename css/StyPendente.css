@@ -30,16 +30,25 @@ main{
     text-align: center;
 }
 
-.tabela{
-    width: 70%;
-    margin: 0 auto;
-}
 
 table{
-    width: 100%;
-    
+    width: 90%;
+    background-color: aqua;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
 }
 
-table > td{
-    border-right: 4px solid aqua;
+table > thead > tr > th{
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: solid 2px black;
+    border-collapse: collapse;
+}
+
+table > tbody > tr > th{
+    padding: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: solid 1px black;
 }
