@@ -13,7 +13,6 @@
         <nav>
             <ul>
                 <li><a href="/html/admin/viagens/ViagensPendentes.html">Viagens Pendentes</a></li>
-                <li><a href="/html/admin/viagens/ViagensConcluidas.html">Viagens Concluidas</a></li>
                 <li><a href="/Home.html"> Sair </a></li>
             </ul>
         </nav>
@@ -21,6 +20,10 @@
 
     <main>
         <h1>Viagens Aprovadas:</h1>
+        <form method="post">
+            <input type="text" name="buscar" id="buscar" class="busca" placeholder="BUSCAR" required>
+            <input type="submit" name="submit" id="submit">
+        </form>
         <table>
             <thead class="topo">
                 <tr>
@@ -32,7 +35,7 @@
                     <th>HORARIO DE SAÍDA</th>
                     <th>PREVISÃO DE RETORNO</th>
                     <th>MOTORISTA</th>
-                    <th>FINALIZAR</th>
+                    <th>ALTERAR</th>
                 </tr>
             </thead>
             <tbody>
@@ -46,7 +49,7 @@
                     <th>zap</th>
                     <th>zap</th>
                     <th>
-                        <div class="link"><a href="/html/admin/opçoes/finalizar.html">FINALIZAR</a></div>
+                        <div class="link"><a href="/html/admin/opçoes/finalizar.html">ALTERAR</a></div>
                     </th>
                 </tr>
             </tbody>
