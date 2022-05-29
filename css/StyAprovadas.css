@@ -42,7 +42,7 @@ table {
 }
 
 table>thead>tr>th {
-    padding: 5px;
+    padding: 10px;
     font-size: 18px;
     border-bottom: solid 2px black;
     border-collapse: collapse;
@@ -51,6 +51,18 @@ table>thead>tr>th {
 table>tbody>tr>th {
     padding: 10px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     border-bottom: solid 1px black;
+}
+
+table>tbody>tr>th>.link {
+    padding: 2%;
+    background-color: #3D0E0C;
+    border-radius: 3px;
+
+}
+
+table>tbody>tr>th>.link>a {
+    text-decoration: none;
+    color: white;
 }
