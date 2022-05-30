@@ -54,3 +54,7 @@ table>tbody>tr>th {
     font-size: 18px;
     border-bottom: solid 1px black;
 }
+
+.ações>a>svg>path {
+    width: 40%;
+}
